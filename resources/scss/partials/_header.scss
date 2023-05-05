@@ -1,0 +1,21 @@
+section {
+    .container {
+        div {
+            a {
+                text-decoration: none;
+                color: black;
+                border: 1px solid black;
+                padding: 10px 20px;
+                border-radius: .625rem;
+                &:hover{
+                    background-color: lightskyblue;
+                }
+            }
+        }
+        .active {
+            text-decoration: underline 2px solid palevioletred;
+            color: palevioletred;
+            background-color: black;
+        }
+    }
+}
