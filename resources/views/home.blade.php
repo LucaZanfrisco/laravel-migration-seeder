@@ -2,7 +2,7 @@
 
 @section('page.main')
     <div class="container">
-        <ul>
+        <ul class="row row-cols-1 row-cols-md-3">
             @foreach ($trains as $train)
                 <li class="card p-4">
                     <h3>{{ $train->id_train }}</h3>
